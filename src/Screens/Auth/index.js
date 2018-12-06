@@ -4,7 +4,7 @@ class Auth extends Component {
   render() {
     return (
       <div>
-        <h1>Auth</h1>
+        <h1>Authentication</h1>
       </div>
     )
   }
