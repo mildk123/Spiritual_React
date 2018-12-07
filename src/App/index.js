@@ -1,13 +1,17 @@
-import React, { Component } from 'react'
-import Auth from '../Screens/Auth'
+import React, { Component, Fragment } from "react";
+import CssBaseline from '@material-ui/core/CssBaseline';
+
+import Homescreen from "../Screens/Homescreen";
+// import Auth from '../Screens/Auth'
+
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>Main App</h1>
-        <Auth />
-      </div>
-    )
+      <Fragment>
+          <CssBaseline />
+        <Homescreen />
+      </Fragment>
+    );
   }
 }
 
