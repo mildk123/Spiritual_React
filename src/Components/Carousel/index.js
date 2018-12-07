@@ -16,7 +16,7 @@ class CarouselSlider extends Component {
       autoPlay
       interval = {3000}
       stopOnHover= {false}
-      transitionTime={800}
+      transitionTime={500}
       dynamicHeight = {true}
       >
         <div className='imger'>
