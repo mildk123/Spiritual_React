@@ -14,7 +14,7 @@ class CarouselSlider extends Component {
       showThumbs = {false}
       infiniteLoop = {true}
       autoPlay
-      interval = {3000}
+      interval = {4000}
       stopOnHover= {false}
       transitionTime={500}
       dynamicHeight = {true}
