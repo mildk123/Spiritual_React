@@ -19,14 +19,14 @@ class CarouselSlider extends Component {
       transitionTime={700}
       dynamicHeight = {true}
       >
-        <div>
-          <img src={Slide1} />
+        <div className='imger'>
+          <img alt='slide1' src={Slide1} />
         </div>
-        <div>
-          <img src={Slide2} />
+        <div className='imger'>
+          <img alt='slide2' src={Slide2} />
         </div>
-        <div>
-          <img src={Slide3} />
+        <div className='imger'>
+          <img alt='slide3' src={Slide3} />
         </div>
       </Carousel>
     );
