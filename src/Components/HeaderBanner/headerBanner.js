@@ -17,8 +17,8 @@ function ButtonAppBar(props) {
   const { classes } = props;
   return (
     <AppBar className={classes.AppBar} position="static">
-      <Grid container lg={12} md={12} sm={12}>
-        <Grid container lg={9} md={8} sm={7} justify="flex-start">
+      <Grid container style={{width: '100%'}}>
+        <Grid container style={{width: '70%'}} justify="flex-start">
           <Grid item lg={1} md={1} sm={1} />
           <Grid item lg={2} md={3} sm={5}>
             <MailIcon fontSize="small" />
@@ -31,7 +31,7 @@ function ButtonAppBar(props) {
           </Grid>
         </Grid>
 
-        <Grid container lg={3} md={4} sm={4} justify="flex-start">
+        <Grid container style={{width: '30%'}} justify="flex-start">
           <Grid item sm={1} md={1} lg={1}>
             <MailIcon fontSize="small" />
           </Grid>

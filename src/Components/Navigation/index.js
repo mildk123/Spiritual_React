@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import { Fab } from '@material-ui/core';
 
 const styles = theme => ({
   button: {
@@ -31,13 +32,14 @@ function ContainedButtons(props) {
       <Button variant="text"  color="primary" className={classes.button}>
         Appointment
       </Button>
-      <Button variant="extendedFab"  color="secondary" className={classes.button}>
-        Login
-      </Button>
       
-      <Button variant="extendedFab"  color="secondary" className={classes.button}>
+      <Fab variant="extended"  color="secondary" className={classes.button}>
+        Login
+      </Fab>
+      
+      <Fab variant="extended"  color="secondary" className={classes.button}>
         sign up
-      </Button>
+      </Fab>
     </div>
   );
 }

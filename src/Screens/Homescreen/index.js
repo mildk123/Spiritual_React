@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
-import HeaderBanner from "../../Components/headerBanner";
+import HeaderBanner from "../../Components/HeaderBanner/headerBanner";
 import Carousel from "../../Components/Carousel";
+import BookingShortcut from "../../Components/BookingShortcut";
 
 import Logo from "../../Assets/logo.png";
 
@@ -12,11 +13,11 @@ class Homescreen extends Component {
   render() {
     return (
       <Grid container>
-        <Grid item xs={12}>
+        <Grid item style={{width: '100%'}}>
           <HeaderBanner />
         </Grid>
 
-        <Grid container spacing={24} style={{ zIndex: 20, position: 'absolute', top: 80}}>
+        <Grid container style={{ zIndex: 20, position: 'absolute', top: 80}}>
             <Grid item  xs={1} />
           <Grid item xs={3}>
             <img src={Logo} alt="Logo" />
@@ -28,6 +29,7 @@ class Homescreen extends Component {
         </Grid>
 
         <Carousel />
+        <BookingShortcut />
       </Grid>
     );
   }
