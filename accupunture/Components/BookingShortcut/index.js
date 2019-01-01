@@ -37,9 +37,6 @@ class BookingShortcut extends Component {
             />
             <div>
               <h3>Electroacupuncture</h3>
-              <p>Electrostimulation Equipment</p>
-
-              <input type="button" value="Book Online" />
             </div>
           </Grid>
 
@@ -56,10 +53,6 @@ class BookingShortcut extends Component {
             />
             <div>
               <h3>Electroacupuncture</h3>
-              <p>Electrostimulation Equipment</p>
-            </div>
-            <div>
-              <input type="button" value="Book Online" />
             </div>
           </Grid>
 
@@ -76,10 +69,6 @@ class BookingShortcut extends Component {
             />
             <div>
               <h3>Electroacupuncture</h3>
-              <p>Electrostimulation Equipment</p>
-            </div>
-            <div>
-              <input type="button" value="Book Online" />
             </div>
           </Grid>
         </Grid>
